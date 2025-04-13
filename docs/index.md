@@ -1,5 +1,9 @@
 # E2MC Studio
 
+<link rel="stylesheet" href="/assets/css/style.css">
+
+[Products](./products) [About](./about)
+
 SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 
 自己紹介・スキル詳細はこちら -> [About](./about)
