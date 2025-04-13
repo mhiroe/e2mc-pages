@@ -11,6 +11,15 @@ SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 自己紹介・スキル詳細はこちら → [About](/about)  
 実績・プロジェクト詳細はこちら → [Products](/products)
 
+## 概要
+
+* 名前: Mitsuki YAMADA
+* 職種: Site Reliability Engineer
+* [Github](https://github.com/mhiroe/)
+* [X](https://x.com/momomom91913073)
+* [Instagram](https://www.instagram.com/monyama9/)
+* [Zenn](https://zenn.dev/monn)
+
 ---
 
 ## Recent Posts
@@ -28,12 +37,6 @@ SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 
 [Zennをもっと見る](https://zenn.dev/monn)
 
-## SNS
-
-- [Github](https://github.com/mhiroe/)
-- [X](https://x.com/momomom91913073)
-- [Instagram](https://www.instagram.com/monyama9/)
-- [Zenn](https://zenn.dev/monn)
 
 [Subscribe via RSS](#)
 
