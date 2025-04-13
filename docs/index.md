@@ -1,15 +1,13 @@
-# E2MC Studio
-
-[Home](/) [Products](/products) [About](/about)
-
-SREエンジニアの Mitsuki YAMADA の個人ホームページです。
-
+---
+layout: default
+title: Home
 ---
 
-## 自己紹介
+{% include header.html %}
 
-自己紹介・スキル詳細はこちら → [About](/about)  
-実績・プロジェクト詳細はこちら → [Products](/products)
+# E2MC Studio
+
+SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 
 ## 概要
 
@@ -21,6 +19,9 @@ SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 * [Zenn](https://zenn.dev/monn)
 
 ---
+
+自己紹介・スキル詳細はこちら → [About](/about)  
+実績・プロジェクト詳細はこちら → [Products](/products)
 
 ## Recent Posts
 
@@ -36,7 +37,6 @@ SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 </div>
 
 [Zennをもっと見る](https://zenn.dev/monn)
-
 
 [Subscribe via RSS](#)
 
