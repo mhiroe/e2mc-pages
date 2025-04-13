@@ -1,0 +1,25 @@
+name: Fetch External Articles
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 毎日0時に実行
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  fetch-articles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch Zenn Articles
+        run: |
+          curl -s "https://zenn.dev/api/articles?username=monn" | \
+          jq '[.articles[] | {title, link: ("https://zenn.dev/" + .path), published_at}]' > docs/assets/zenn-articles.json
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add docs/assets/zenn-articles.json
+          git commit -m "Update external articles" || exit 0
+          git push
