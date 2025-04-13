@@ -1,45 +1,40 @@
 # E2MC Studio
 
-<link rel="stylesheet" href="/assets/css/style.css">
-
-<div class="nav-menu">
-  <a href="/">Home</a>
-  <a href="/products">Products</a>
-  <a href="/about">About</a>
-</div>
+[Home](/) [Products](/products) [About](/about)
 
 SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 
-<div class="section">
-  <div class="card">
-    自己紹介・スキル詳細はこちら -> [About](./about)
-    実績・プロジェクト詳細はこちら -> [Products](./products)
-  </div>
-</div>
+---
+
+## 自己紹介
+
+自己紹介・スキル詳細はこちら → [About](/about)  
+実績・プロジェクト詳細はこちら → [Products](/products)
 
 ---
 
-<div class="section">
-  <h2>Recent Posts</h2>
-  <div class="card">
-    * Apr 10, 2025  
-    ### Coming Soon...
-  </div>
+## Recent Posts
+
+* Apr 10, 2025  
+### Coming Soon...
+
+## External Articles
+
+### Zenn
+<div class="zenn-articles">
+  <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
+  Loading...
 </div>
 
-<div class="section">
-  <h2>External Articles</h2>
-  <h3>Zenn</h3>
-  <div class="zenn-articles card">
-    <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
-    Loading...
-  </div>
+[Zennをもっと見る](https://zenn.dev/monn)
 
-  <p><a href="https://zenn.dev/monn">Zennをもっと見る</a></p>
-</div>
+## SNS
 
-<div class="section">
-  subscribe via RSS
-</div>
+- [Github](https://github.com/mhiroe/)
+- [X](https://x.com/momomom91913073)
+- [Instagram](https://www.instagram.com/monyama9/)
+- [Zenn](https://zenn.dev/monn)
+
+[Subscribe via RSS](#)
 
 <script src="/assets/js/load-articles.js"></script>

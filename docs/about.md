@@ -1,35 +1,23 @@
 # About
 
-<link rel="stylesheet" href="/assets/css/style.css">
+[Home](/) [Products](/products) [About](/about)
 
-<div class="nav-menu">
-  <a href="/">Home</a>
-  <a href="/products">Products</a>
-  <a href="/about">About</a>
-</div>
+## 自己紹介
 
-<div class="section">
-  <h2>自己紹介</h2>
-  <div class="card">
-    SREエンジニアとして、大規模サービスのインフラ構築・運用に従事しています。
-    インフラエンジニアとしてシステム全体を見渡すことが多く、アプリケーションコードやデータの状態を理解することを大切にしています。
+SREエンジニアとして、大規模サービスのインフラ構築・運用に従事しています。
+インフラエンジニアとしてシステム全体を見渡すことが多く、アプリケーションコードやデータの状態を理解することを大切にしています。
 
-    愛知県出身。音楽大学作曲専攻を経て、IT業界へ。
-    新しい技術への探求心を持ち続け、特にサーバーレスアーキテクチャに強い関心があります。
-  </div>
-</div>
+愛知県出身。音楽大学作曲専攻を経て、IT業界へ。
+新しい技術への探求心を持ち続け、特にサーバーレスアーキテクチャに強い関心があります。
 
-<div class="section">
-  <h2>概要</h2>
-  <div class="card">
-    * 名前: 山田光輝 (Mitsuki YAMADA)
-    * 職種: Site Reliability Engineer
-    * Github: https://github.com/mhiroe/
-    * X: https://x.com/momomom91913073
-    * Instagram: https://www.instagram.com/monyama9/
-    * Zenn: https://zenn.dev/monn
-  </div>
-</div>
+## 概要
+
+* 名前: 山田光輝 (Mitsuki YAMADA)
+* 職種: Site Reliability Engineer
+* [Github](https://github.com/mhiroe/)
+* [X](https://x.com/momomom91913073)
+* [Instagram](https://www.instagram.com/monyama9/)
+* [Zenn](https://zenn.dev/monn)
 
 ## スキル・経験
 
@@ -72,9 +60,3 @@
 * 健康管理・アウトドアアクティビティ
 * 渓流釣り・登山（始めたて）
 
-## SNS
-
-Github  https://github.com/mhiroe/
-X https://x.com/momomom91913073
-instagram https://www.instagram.com/monyama9/
-zenn https://zenn.dev/monn
