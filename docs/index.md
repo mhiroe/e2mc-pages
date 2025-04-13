@@ -2,30 +2,44 @@
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
-[Products](./products) [About](./about)
+<div class="nav-menu">
+  <a href="/">Home</a>
+  <a href="/products">Products</a>
+  <a href="/about">About</a>
+</div>
 
 SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 
-自己紹介・スキル詳細はこちら -> [About](./about)
-実績・プロジェクト詳細はこちら -> [Products](./products)
+<div class="section">
+  <div class="card">
+    自己紹介・スキル詳細はこちら -> [About](./about)
+    実績・プロジェクト詳細はこちら -> [Products](./products)
+  </div>
+</div>
 
 ---
 
-## Recent Posts
-
-* Apr 10, 2025  
-### Coming Soon...
-
-## External Articles
-
-### Zenn
-<div class="zenn-articles">
-  <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
-  Loading...
+<div class="section">
+  <h2>Recent Posts</h2>
+  <div class="card">
+    * Apr 10, 2025  
+    ### Coming Soon...
+  </div>
 </div>
 
-[Zennをもっと見る](https://zenn.dev/monn)
+<div class="section">
+  <h2>External Articles</h2>
+  <h3>Zenn</h3>
+  <div class="zenn-articles card">
+    <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
+    Loading...
+  </div>
 
-subscribe via RSS
+  <p><a href="https://zenn.dev/monn">Zennをもっと見る</a></p>
+</div>
+
+<div class="section">
+  subscribe via RSS
+</div>
 
 <script src="/assets/js/load-articles.js"></script>
