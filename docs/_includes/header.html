@@ -1,12 +1,12 @@
 <header class="site-header">
   <div class="header-content">
     <div class="site-title">
-      <a href="/">E2MC </a>
+      <a href="/e2mc-pages/">e2mc</a>
     </div>
     <nav class="site-nav">
-      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-      <a href="/products" {% if page.url == "/products" %}class="active"{% endif %}>Products</a>
-      <a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a>
+      <a href="/e2mc-pages/" {% if page.url == "/e2mc-pages/" %}class="active"{% endif %}>Home</a>
+      <a href="/e2mc-pages/products" {% if page.url == "/e2mc-pages/products" %}class="active"{% endif %}>Products</a>
+      <a href="/e2mc-pages/about" {% if page.url == "/e2mc-pages/about" %}class="active"{% endif %}>About</a>
     </nav>
   </div>
 </header>
@@ -80,12 +80,10 @@ body {
 
 @media (max-width: 600px) {
   .header-content {
-    flex-direction: column;
     padding: 1rem;
   }
   
   .site-nav {
-    margin-top: 1rem;
     gap: 1rem;
   }
 }</style> 
