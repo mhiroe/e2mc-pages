@@ -1,6 +1,11 @@
-# Products
+---
+layout: default
+title: Products
+---
 
-[Home](/) [Products](/products) [About](/about)
+{% include header.html %}
+
+# Products
 
 ## 主な実績
 
@@ -22,4 +27,6 @@
 ### チームマネジメント
 - インフラチームリーダー経験
 - 技術選定・検証
-- チーム育成・技術共有 
+- チーム育成・技術共有
+
+{% include footer.html %} 

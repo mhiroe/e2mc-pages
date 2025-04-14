@@ -5,18 +5,8 @@ title: Home
 
 {% include header.html %}
 
-# E2MC Studio
+SREエンジニアの Monyama の個人ホームページです。
 
-SREエンジニアの Mitsuki YAMADA の個人ホームページです。
-
-## 概要
-
-* 名前: Mitsuki YAMADA
-* 職種: Site Reliability Engineer
-* [Github](https://github.com/mhiroe/)
-* [X](https://x.com/momomom91913073)
-* [Instagram](https://www.instagram.com/monyama9/)
-* [Zenn](https://zenn.dev/monn)
 
 ---
 
@@ -41,3 +31,5 @@ SREエンジニアの Mitsuki YAMADA の個人ホームページです。
 [Subscribe via RSS](#)
 
 <script src="/assets/js/load-articles.js"></script>
+
+{% include footer.html %}
