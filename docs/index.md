@@ -5,6 +5,24 @@ title: Home
 
 {% include header.html %}
 
+<div class="top-image">
+  <img src="topimage.jpg" alt="山の風景と階段" />
+</div>
+
+<style>
+.top-image {
+  width: 100%;
+  margin: 0 0 2rem;
+}
+
+.top-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+</style>
+
 SREエンジニアの Monyama の個人ホームページです。
 
 
