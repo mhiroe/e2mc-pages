@@ -1,0 +1,98 @@
+---
+layout: default
+title: home
+---
+
+{% include header.html %}
+
+<div class="container">
+  <div class="top-image">
+    <img src="topimage.jpg" alt="山の風景と階段" />
+  </div>
+
+  <div class="content">
+    <p class="intro">SREエンジニアの Monyama の個人ホームページです。</p>
+
+    <div class="links-section">
+      <p>
+        自己紹介・スキル詳細はこちら → <a href="/e2mc-pages/about">About</a
+        ><br />
+        実績・プロジェクト詳細はこちら →
+        <a href="/e2mc-pages/products">Products</a>
+      </p>
+    </div>
+
+    <section class="recent-posts">
+      <h2>Recent Posts</h2>
+      <article>
+        <time>Apr 10, 2025</time>
+        <h3>Coming Soon...</h3>
+      </article>
+    </section>
+
+    <section class="external-articles">
+      <h2>External Articles</h2>
+      <h3>Zenn</h3>
+      <div class="zenn-articles">
+        <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
+        Loading...
+      </div>
+      <p>
+        <a href="https://zenn.dev/monn">Zennをもっと見る</a>
+      </p>
+      <p>
+        <a href="#">Subscribe via RSS</a>
+      </p>
+    </section>
+  </div>
+</div>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .top-image {
+    width: 100%;
+    margin: 0 0 2rem;
+  }
+
+  .top-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .content {
+    margin: 2rem 0;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .links-section {
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+
+  .recent-posts,
+  .external-articles {
+    margin: 2rem 0;
+  }
+
+  time {
+    color: #666;
+    font-size: 0.9rem;
+  }
+</style>
+
+<script src="/assets/js/load-articles.js"></script>
+
+{% include footer.html %}
