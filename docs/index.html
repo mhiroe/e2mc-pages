@@ -5,11 +5,9 @@ title: home
 
 {% include header.html %}
 
-<div class="container">
-  <div class="top-image">
-    <div class="background-image"></div>
-  </div>
+<div class="site-background"></div>
 
+<div class="container">
   <div class="content">
     <p class="intro">SREエンジニアの Monyama の個人ホームページです。</p>
 
@@ -19,77 +17,33 @@ title: home
       弱さを自覚しながら、誰かとつながり、助け合いながらハードルを越えていく。<br />
       ITやAIが進化しても、普遍的な価値を忘れず、なめらかな社会を育んでいきたいと思っています。
     </p>
+
+    <section class="recent-posts">
+      <h2>Recent Posts</h2>
+      <article>
+        <time>Apr 10, 2025</time>
+        <h3>Coming Soon...</h3>
+      </article>
+    </section>
+
+    <section class="external-articles">
+      <h2>External Articles</h2>
+      <h3>Zenn</h3>
+      <div class="zenn-articles">
+        <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
+        Loading...
+      </div>
+      <p>
+        <a href="https://zenn.dev/monn">Zennをもっと見る</a>
+      </p>
+      <p>
+        <a href="#">Subscribe via RSS</a>
+      </p>
+    </section>
   </div>
 </div>
 
-<style>
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
-  .top-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
-    z-index: 0;
-    overflow: hidden;
-  }
-
-  .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("/e2mc-pages/topimage.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-  }
-
-  .content {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-    z-index: 1;
-  }
-
-  .top-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .intro {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
-
-  .links-section {
-    margin: 2rem 0;
-    padding: 1rem 0;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-  }
-
-  .recent-posts,
-  .external-articles {
-    margin: 2rem 0;
-  }
-
-  time {
-    color: #666;
-    font-size: 0.9rem;
-  }
-</style>
-
+<link rel="stylesheet" href="/e2mc-pages/assets/css/style.css" />
 <script src="/assets/js/load-articles.js"></script>
 
 {% include footer.html %}

@@ -108,3 +108,82 @@ li {
   margin: 1rem 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* 背景画像のスタイル */
+.site-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("/e2mc-pages/topimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.3;
+}
+
+/* メインコンテンツのスタイル */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+/* タイポグラフィ */
+.intro {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.intro-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #34495e;
+  margin-bottom: 2rem;
+}
+
+.intro-description br {
+  margin-bottom: 0.8rem;
+}
+
+/* セクションのスタイル */
+section {
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .content {
+    padding: 1.5rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+  }
+}
