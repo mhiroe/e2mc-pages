@@ -5,7 +5,9 @@ title: home
 
 {% include header.html %}
 
-<div class="site-background"></div>
+<div class="top-image">
+  <img src="topimage.jpg" alt="山の風景と階段" />
+</div>
 
 <div class="container">
   <div class="content">
@@ -17,33 +19,7 @@ title: home
       弱さを自覚しながら、誰かとつながり、助け合いながらハードルを越えていく。<br />
       ITやAIが進化しても、普遍的な価値を忘れず、なめらかな社会を育んでいきたいと思っています。
     </p>
-
-    <section class="recent-posts">
-      <h2>Recent Posts</h2>
-      <article>
-        <time>Apr 10, 2025</time>
-        <h3>Coming Soon...</h3>
-      </article>
-    </section>
-
-    <section class="external-articles">
-      <h2>External Articles</h2>
-      <h3>Zenn</h3>
-      <div class="zenn-articles">
-        <!-- Zenn記事は GitHub Actions で自動取得・更新 -->
-        Loading...
-      </div>
-      <p>
-        <a href="https://zenn.dev/monn">Zennをもっと見る</a>
-      </p>
-      <p>
-        <a href="#">Subscribe via RSS</a>
-      </p>
-    </section>
   </div>
 </div>
-
-<link rel="stylesheet" href="/e2mc-pages/assets/css/style.css" />
-<script src="/assets/js/load-articles.js"></script>
 
 {% include footer.html %}

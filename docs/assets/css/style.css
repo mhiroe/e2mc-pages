@@ -3,11 +3,37 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.87);
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #fafafa;
+  color: #2d3748;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
+  min-height: 100vh;
+}
+
+/* トップ画像 */
+.top-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.top-image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #f5f7fa);
 }
 
 /* Navigation menu */
@@ -55,11 +81,13 @@ h3 {
 
 /* Links */
 a {
-  color: #1976d2;
+  color: #3498db;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #2980b9;
   text-decoration: underline;
 }
 
@@ -109,40 +137,18 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* 背景画像のスタイル */
-.site-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  background-image: url("/e2mc-pages/topimage.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  opacity: 0.7;
-  margin: 0;
-  padding: 0;
-}
-
 /* メインコンテンツのスタイル */
 .container {
   max-width: 800px;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0 1.5rem;
-  position: relative;
 }
 
 .content {
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: #ffffff;
   padding: 2.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   margin: 2rem 0;
 }
 
@@ -153,7 +159,6 @@ li {
   color: #1a202c;
   margin-bottom: 1.5rem;
   line-height: 1.6;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .intro-description {
@@ -161,7 +166,6 @@ li {
   line-height: 1.8;
   color: #2d3748;
   margin-bottom: 2rem;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .intro-description br {
@@ -175,7 +179,7 @@ section {
 
 h2 {
   font-size: 1.8rem;
-  color: #2c3e50;
+  color: #1a202c;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid #3498db;
   padding-bottom: 0.5rem;
@@ -194,4 +198,18 @@ h2 {
   .intro-description {
     font-size: 1rem;
   }
+}
+
+/* Articles */
+.recent-posts article,
+.external-articles article {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+time {
+  color: #718096;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.5rem;
 }
