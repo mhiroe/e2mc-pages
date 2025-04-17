@@ -30,8 +30,34 @@ title: home
   }
 
   .top-image {
-    width: 100%;
-    margin: 0 0 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/e2mc-pages/topimage.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+  }
+
+  .content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    z-index: 1;
   }
 
   .top-image img {
@@ -39,10 +65,6 @@ title: home
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .content {
-    margin: 2rem 0;
   }
 
   .intro {
