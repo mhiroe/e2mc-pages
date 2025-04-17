@@ -116,12 +116,16 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
   background-image: url("/e2mc-pages/topimage.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  opacity: 0.3;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
 }
 
 /* メインコンテンツのスタイル */
@@ -133,7 +137,9 @@ li {
 }
 
 .content {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -143,17 +149,19 @@ li {
 /* タイポグラフィ */
 .intro {
   font-size: 1.4rem;
-  font-weight: 500;
-  color: #2c3e50;
+  font-weight: 600;
+  color: #1a202c;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .intro-description {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #34495e;
+  color: #2d3748;
   margin-bottom: 2rem;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .intro-description br {

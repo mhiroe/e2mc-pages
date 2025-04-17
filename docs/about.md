@@ -7,8 +7,6 @@ title: About
 
 # About
 
-[Home](/) [Products](/products) [About](/about)
-
 ## 自己紹介
 
 SREエンジニアとして、大規模サービスのインフラ構築・運用に従事しています。
