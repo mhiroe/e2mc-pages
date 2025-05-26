@@ -1,6 +1,6 @@
 # E2MC Pages
 
-個人ポートフォリオサイト用のGitHub Pagesリポジトリです。
+個人ポートフォリオサイト用のGitHub Pagesリポジトリです。 
 
 ## 機能
 
