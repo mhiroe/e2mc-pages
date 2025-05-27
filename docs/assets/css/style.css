@@ -141,78 +141,89 @@ li {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .content {
   background: #ffffff;
-  padding: 2.5rem;
-  border-radius: 12px;
+  padding: 3rem;
+  border-radius: 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 /* タイポグラフィ */
 .intro {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #1a202c;
-  margin: 2.5rem 0 1.5rem;
+  margin: 3rem 0 2rem;
   line-height: 1.4;
 }
 
 .intro-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: #2d3748;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .intro-description section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .intro-description h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #2d3748;
-  margin: 2rem 0 1rem;
+  margin: 2.5rem 0 1.2rem;
   font-weight: 500;
 }
 
 .intro-description ul {
-  padding-left: 1.2rem;
-  margin: 1rem 0;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .intro-description li {
-  margin: 0.8rem 0;
+  margin: 1rem 0;
   line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .intro-description br {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   display: block;
   content: "";
 }
 
 /* セクション固有のスタイル */
 .profile-section {
-  font-size: 1.2rem;
-  line-height: 2;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0 0 4rem;
+  color: #4a5568;
 }
 
 .skills-section,
 .career-section,
 .achievement-section,
 .interests-section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 4rem;
+  padding: 0 1rem;
 }
 
 .skills-section:last-child,
 .career-section:last-child,
 .achievement-section:last-child,
 .interests-section:last-child {
-  margin-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.skills-section ul,
+.career-section ul,
+.achievement-section ul,
+.interests-section ul {
+  margin-top: 1.5rem;
 }
 
 /* セクションのスタイル */
@@ -231,43 +242,45 @@ h2 {
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
   .container {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   .content {
-    padding: 1.5rem;
-    margin: 1.5rem 0;
+    padding: 2rem;
+    margin: 2rem 0;
   }
 
   .intro {
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
+    font-size: 1.3rem;
+    margin: 2.5rem 0 1.5rem;
   }
 
   .intro-description {
-    font-size: 1rem;
-    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    margin-bottom: 3rem;
   }
 
   .intro-description section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .intro-description h3 {
-    font-size: 1.2rem;
-    margin: 1.5rem 0 0.8rem;
+    font-size: 1.1rem;
+    margin: 2rem 0 1rem;
   }
 
   .profile-section {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 3rem;
   }
 
   .skills-section,
   .career-section,
   .achievement-section,
   .interests-section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 0.5rem;
   }
 
   .top-image {
@@ -277,36 +290,51 @@ h2 {
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 0.8rem;
+    padding: 0 1rem;
   }
 
   .content {
-    padding: 1.2rem;
-    margin: 1rem 0;
-    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 12px;
   }
 
   .intro {
-    font-size: 1.3rem;
-    margin: 1.5rem 0 0.8rem;
+    font-size: 1.2rem;
+    margin: 2rem 0 1.2rem;
   }
 
   .intro-description {
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
   }
 
   .intro-description h3 {
-    font-size: 1.1rem;
-    margin: 1.2rem 0 0.6rem;
+    font-size: 1rem;
+    margin: 1.8rem 0 0.8rem;
   }
 
   .intro-description ul {
     padding-left: 1rem;
+    margin: 1.2rem 0;
   }
 
   .intro-description li {
-    margin: 0.6rem 0;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+
+  .profile-section {
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .skills-section,
+  .career-section,
+  .achievement-section,
+  .interests-section {
+    margin-bottom: 2.5rem;
+    padding: 0;
   }
 
   .top-image {
