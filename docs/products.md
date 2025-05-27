@@ -3,34 +3,46 @@ layout: default
 title: Products
 ---
 
-<div class="intro">主な実績</div>
+<div class="container">
+  <div class="content">
+    <div class="intro">主な実績</div>
 
-<div class="intro-description">
-  <h3>データ基盤構築・運用</h3>
-  <ul>
-    <li>大規模ヘルスケアデータの統合基盤設計・構築</li>
-    <li>セキュアなクラウド環境での開発基盤整備</li>
-    <li>データウェアハウス最適化・運用改善</li>
-  </ul>
+    <div class="intro-description">
+      <section class="achievement-section">
+        <h3>データ基盤構築・運用</h3>
+        <ul>
+          <li>大規模ヘルスケアデータの統合基盤設計・構築</li>
+          <li>セキュアなクラウド環境での開発基盤整備</li>
+          <li>データウェアハウス最適化・運用改善</li>
+        </ul>
+      </section>
 
-  <h3>大規模Webサービス運用</h3>
-  <ul>
-    <li>数百万PV/日規模のWebサービス運用</li>
-    <li>マイクロサービスアーキテクチャの設計</li>
-    <li>インフラコスト最適化（30%以上の削減実現）</li>
-  </ul>
+      <section class="achievement-section">
+        <h3>大規模Webサービス運用</h3>
+        <ul>
+          <li>数百万PV/日規模のWebサービス運用</li>
+          <li>マイクロサービスアーキテクチャの設計</li>
+          <li>インフラコスト最適化（30%以上の削減実現）</li>
+        </ul>
+      </section>
 
-  <h3>セキュリティ対策</h3>
-  <ul>
-    <li>クラウドセキュリティ設計・実装</li>
-    <li>コンプライアンス対応（ISMS）</li>
-    <li>セキュリティインシデント対応</li>
-  </ul>
+      <section class="achievement-section">
+        <h3>セキュリティ対策</h3>
+        <ul>
+          <li>クラウドセキュリティ設計・実装</li>
+          <li>コンプライアンス対応（ISMS）</li>
+          <li>セキュリティインシデント対応</li>
+        </ul>
+      </section>
 
-  <h3>チームマネジメント</h3>
-  <ul>
-    <li>インフラチームリーダー経験</li>
-    <li>技術選定・検証</li>
-    <li>チーム育成・技術共有</li>
-  </ul>
+      <section class="achievement-section">
+        <h3>チームマネジメント</h3>
+        <ul>
+          <li>インフラチームリーダー経験</li>
+          <li>技術選定・検証</li>
+          <li>チーム育成・技術共有</li>
+        </ul>
+      </section>
+    </div>
+  </div>
 </div>

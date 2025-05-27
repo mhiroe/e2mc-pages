@@ -154,22 +154,65 @@ li {
 
 /* タイポグラフィ */
 .intro {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #1a202c;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  margin: 2.5rem 0 1.5rem;
+  line-height: 1.4;
 }
 
 .intro-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #2d3748;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro-description section {
+  margin-bottom: 2.5rem;
+}
+
+.intro-description h3 {
+  font-size: 1.4rem;
+  color: #2d3748;
+  margin: 2rem 0 1rem;
+  font-weight: 500;
+}
+
+.intro-description ul {
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+.intro-description li {
+  margin: 0.8rem 0;
+  line-height: 1.6;
 }
 
 .intro-description br {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
+  display: block;
+  content: "";
+}
+
+/* セクション固有のスタイル */
+.profile-section {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.skills-section,
+.career-section,
+.achievement-section,
+.interests-section {
+  margin-bottom: 2.5rem;
+}
+
+.skills-section:last-child,
+.career-section:last-child,
+.achievement-section:last-child,
+.interests-section:last-child {
+  margin-bottom: 0;
 }
 
 /* セクションのスタイル */
@@ -187,16 +230,87 @@ h2 {
 
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
   .content {
     padding: 1.5rem;
+    margin: 1.5rem 0;
   }
 
   .intro {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
   }
 
   .intro-description {
     font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .intro-description section {
+    margin-bottom: 2rem;
+  }
+
+  .intro-description h3 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.8rem;
+  }
+
+  .profile-section {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .skills-section,
+  .career-section,
+  .achievement-section,
+  .interests-section {
+    margin-bottom: 2rem;
+  }
+
+  .top-image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.8rem;
+  }
+
+  .content {
+    padding: 1.2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+
+  .intro {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.8rem;
+  }
+
+  .intro-description {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .intro-description h3 {
+    font-size: 1.1rem;
+    margin: 1.2rem 0 0.6rem;
+  }
+
+  .intro-description ul {
+    padding-left: 1rem;
+  }
+
+  .intro-description li {
+    margin: 0.6rem 0;
+  }
+
+  .top-image {
+    height: 200px;
   }
 }
 
